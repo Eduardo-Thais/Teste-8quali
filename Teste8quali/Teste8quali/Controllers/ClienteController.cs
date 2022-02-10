@@ -25,9 +25,9 @@ namespace Teste8quali.Controllers
         }
 
         [HttpPost]
-        public IActionResult Criar(ClienteModel Cliente, EmailModel email)
+        public IActionResult Criar(ClienteModel Cliente)
         {
-            _clienteRepository.Adicionar(Cliente, email);
+            _clienteRepository.Adicionar(Cliente);
             return RedirectToAction("Index");
         }
 

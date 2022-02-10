@@ -5,7 +5,7 @@ namespace Teste8quali.Models
 {
     public class ClienteModel
     {
-        [Key()]
+        
         public int Id { get; set; }
 
 
