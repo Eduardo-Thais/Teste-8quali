@@ -6,7 +6,7 @@
 <div class="text-center">
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a  class="btn btn-primary" role="button" asp-controller="Cliente" asp-action="Criar">Editar</a>
+        <a  class="btn btn-primary" role="button" asp-controller="Cliente" asp-action="Criar">Criar cliente</a>
     </div>
     <br/>
 
@@ -40,7 +40,7 @@
                       <td>
                       <div class="btn-group" role="group" aria-label="Basic example">
                           <a  class="btn btn-danger" asp-route-id="@cliente.Id" asp-controller="Cliente" asp-action="Apagar" >Apagar</a>
-                          <a  class="btn btn-primary">Editar</a>
+                          <a  class="btn btn-primary" asp-route-id="@cliente.Id" asp-controller="Cliente" asp-action="Editar">Editar</a>
                           <a  class="btn btn-warning">Adicionar email</a>
                       </div>
                       </td>

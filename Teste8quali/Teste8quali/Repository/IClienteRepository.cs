@@ -9,5 +9,7 @@ namespace Teste8quali.Repository
         List<ClienteModel> BuscarTodos();
         ClienteModel Adicionar(ClienteModel cliente);
         ClienteModel Apagar(ClienteModel cliente);
+
+        ClienteModel Atualizar(ClienteModel cliente);
     }
 }

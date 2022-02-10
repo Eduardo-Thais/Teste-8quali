@@ -143,3 +143,5 @@ C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\ref\Teste8quali.dll
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Teste8quali.pdb
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Teste8quali.genruntimeconfig.cache
+C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Teste8quali.csproj.AssemblyReference.cache
+C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Razor\Views\Cliente\Editar.cshtml.g.cs

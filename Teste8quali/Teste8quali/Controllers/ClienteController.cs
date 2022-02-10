@@ -37,5 +37,17 @@ namespace Teste8quali.Controllers
             _clienteRepository.Apagar(cliente);
             return RedirectToAction("Index");
         }
+
+        public IActionResult Editar(int id)
+        {
+            ClienteModel cliente = _clienteRepository.ListarPorId(id);
+            return View(cliente);
+        }
+
+        public IActionResult Alterar(ClienteModel cliente)
+        {
+            _clienteRepository.Atualizar(cliente);
+            return RedirectToAction("Index");
+        }
     }
 }

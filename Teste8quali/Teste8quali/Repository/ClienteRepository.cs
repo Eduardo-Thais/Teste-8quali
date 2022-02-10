@@ -40,5 +40,23 @@ namespace Teste8quali.Repository
         {
             return _bancoContext.Cliente.FirstOrDefault(x => x.Id == id);
         }
+
+        public ClienteModel Atualizar(ClienteModel contato)
+        {
+            ClienteModel contatoDB = ListarPorId(contato.Id);
+
+            if (contatoDB == null) throw new System.Exception("Houve um erro na atualização do cliente");
+
+            contatoDB.nome = contato.nome;
+            contatoDB.email = contato.email;
+            contatoDB.empresa = contato.empresa;
+            contatoDB.telefonePessoal = contato.telefonePessoal;
+            contatoDB.telefonecomercial = contato.telefonecomercial;
+
+            _bancoContext.Cliente.Update(contatoDB);
+            _bancoContext.SaveChanges();
+
+            return contatoDB;
     }
+}
 }
