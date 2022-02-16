@@ -129,7 +129,6 @@ C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Teste8quali.RazorCoreGenerate.cache
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Razor\Views\Cliente\Criar.cshtml.g.cs
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Razor\Views\Cliente\Index.cshtml.g.cs
-C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -145,3 +144,4 @@ C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Teste8quali.genruntimeconfig.cache
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Teste8quali.csproj.AssemblyReference.cache
 C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Razor\Views\Cliente\Editar.cshtml.g.cs
+C:\Users\Masterlink254\Documents\GitHub\Teste-8quali\Teste8quali\Teste8quali\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs

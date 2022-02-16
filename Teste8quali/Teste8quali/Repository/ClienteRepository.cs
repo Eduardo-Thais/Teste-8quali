@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Linq;
 using Teste8quali.Data;
 using Teste8quali.Models;
@@ -16,6 +17,7 @@ namespace Teste8quali.Repository
         {
             //Grava no banco de dados
             _bancoContext.Cliente.Add(cliente);
+            _bancoContext.Cliente.Include(p => p.Emails);
             _bancoContext.SaveChanges();
             return cliente;
         }
@@ -47,11 +49,10 @@ namespace Teste8quali.Repository
 
             if (contatoDB == null) throw new System.Exception("Houve um erro na atualização do cliente");
 
-            contatoDB.nome = contato.nome;
-            contatoDB.email = contato.email;
-            contatoDB.empresa = contato.empresa;
-            contatoDB.telefonePessoal = contato.telefonePessoal;
-            contatoDB.telefonecomercial = contato.telefonecomercial;
+            contatoDB.Nome = contato.Nome;
+            contatoDB.Empresa = contato.Empresa;
+            contatoDB.TelefonePessoal = contato.TelefonePessoal;
+            contatoDB.Telefonecomercial = contato.Telefonecomercial;
 
             _bancoContext.Cliente.Update(contatoDB);
             _bancoContext.SaveChanges();

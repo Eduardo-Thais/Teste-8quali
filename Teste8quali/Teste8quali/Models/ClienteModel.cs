@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Teste8quali.Models
@@ -9,11 +10,11 @@ namespace Teste8quali.Models
         public int Id { get; set; }
 
 
-        public string nome { get; set; }
-        public string email { get; set; }
-        public string empresa { get; set;}
-        public string telefonePessoal { get; set;}
-        public string telefonecomercial { get; set; }
+        public string Nome { get; set; }
+        public ICollection<EmailModel> Emails { get; set; }
+        public string Empresa { get; set;}
+        public string TelefonePessoal { get; set;}
+        public string Telefonecomercial { get; set; }
 
 
 

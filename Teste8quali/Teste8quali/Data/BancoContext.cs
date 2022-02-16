@@ -11,6 +11,7 @@ namespace Teste8quali.Data
         }
 
         public DbSet<ClienteModel> Cliente { get; set; }
+        public DbSet<EmailModel> Email { get; set; }
 
         
     }
